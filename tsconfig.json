@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "allowJs": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "types": ["@testing-library/jest-dom"]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "coverage",
+    ".storybook",
+    "storybook-static"
+  ],
+  //"include": [".eslintrc.js", "babel.config.js", "jest.config.js"],
+  "extends": "./tsconfig.paths.json"
+}
